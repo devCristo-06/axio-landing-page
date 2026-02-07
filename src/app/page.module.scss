@@ -1,5 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 
+
+// -----------------------------------------------
+// MAIN
+// -----------------------------------------------
 .page {
     font-family: "Space Grotesk", sans-serif;
+}
+
+// -----------------------------------------------
+// NAVBAR
+// -----------------------------------------------
+
+.navbar {
+    background-color: #FFF;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+// -----------------------------------------------
+// HERO SECTION
+// -----------------------------------------------
+
+.heroBox {
+    width: 100%;
+}
+
+.box1 {
+    width: 380px;
+}
+
+.txtGray {
+    color: #757575;
+    letter-spacing: 6px;
+}
+
+.h1Hero {
+    font-size: 60px;
+}
+
+.pHero {
+    text-align: justify;
+    line-height: 28px;
+}
+
+.btnHero {
+    color: #FFF;
+    background-color: #6A7FDB;
+
+    &:hover {
+        color: #FFF;
+        background-color: #5b6db9;
+    }
 }
