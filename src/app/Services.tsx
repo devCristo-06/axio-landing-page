@@ -85,8 +85,6 @@ export default function Services() {
 
                 </div>
 
-
-
             </div>
 
 
@@ -95,7 +93,88 @@ export default function Services() {
 
             {/* INIZIO SECONDA PARTE */}
 
+            <div className="row align-items-center mt-5">
 
+                <div className="col-12 col-lg-6 text-center mt-2 mt-lg-0">
+                    <img
+                        className="img-fluid rounded"
+                        src="https://dummyimage.com/400x250/CECECE.png"
+                        alt="Hero preview"
+                    />
+                    <p className={`mt-3 ${styles.pServices}`}>BEFORE</p>
+                </div>
+
+                <div className="col-12 col-lg-6 text-center mt-5 mt-lg-0">
+                    <img
+                        className="img-fluid rounded"
+                        src="https://dummyimage.com/400x250/CECECE.png"
+                        alt="Hero preview"
+                    />
+                    <p className={`mt-3 ${styles.pServices}`}>AFTER</p>
+                </div>
+
+                <div className="col-12 col-lg-12 mt-5">
+
+                    <h1 className="display-5 mt-5 mb-4 fw-bold">
+                        Title mockup-1
+                    </h1>
+
+                    <p className={`lead my-4 ${styles.pAbout}`}>
+                        Lorem ipsum dolor sit amet consectetur.
+                        Lectus consectetur lorem sit cursus adipiscing odio adipiscing eget pretium.
+                        Velit arcu purus eu magna orci mauris suspendisse quis.
+                        Lorem ipsum dolor sit amet consectetur.
+                        Lectus consectetur lorem sit cursus adipiscing odio adipiscing eget pretium.
+                        Velit arcu purus eu magna orci mauris suspendisse quis.
+                    </p>
+
+
+                </div>
+            </div>
+
+            <hr className={styles.hr} />
+
+
+            <div className="row align-items-center mt-5">
+
+                <div className="col-12 col-lg-6 text-center mt-2 mt-lg-0">
+                    <img
+                        className="img-fluid rounded"
+                        src="https://dummyimage.com/400x250/CECECE.png"
+                        alt="Hero preview"
+                    />
+                    <p className={`mt-3 ${styles.pServices}`}>BEFORE</p>
+                </div>
+
+                <div className="col-12 col-lg-6 text-center mt-5 mt-lg-0">
+                    <img
+                        className="img-fluid rounded"
+                        src="https://dummyimage.com/400x250/CECECE.png"
+                        alt="Hero preview"
+                    />
+                    <p className={`mt-3 ${styles.pServices}`}>AFTER</p>
+                </div>
+
+                <div className="col-12 col-lg-12 mt-5">
+
+                    <h1 className="display-5 mt-5 mb-4 fw-bold">
+                        Title mockup-2
+                    </h1>
+
+                    <p className={`lead my-4 ${styles.pAbout}`}>
+                        Lorem ipsum dolor sit amet consectetur.
+                        Lectus consectetur lorem sit cursus adipiscing odio adipiscing eget pretium.
+                        Velit arcu purus eu magna orci mauris suspendisse quis.
+                        Lorem ipsum dolor sit amet consectetur.
+                        Lectus consectetur lorem sit cursus adipiscing odio adipiscing eget pretium.
+                        Velit arcu purus eu magna orci mauris suspendisse quis.
+                    </p>
+
+
+                </div>
+            </div>
+
+            <hr className={styles.hr} />
 
         </section>
 

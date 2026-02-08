@@ -84,3 +84,50 @@
 .spacing {
     margin-left: 30%;
 }
+
+.pServices {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+// -----------------------------------------------
+// CONTACTS SECTION
+// -----------------------------------------------
+
+.cardSocial {
+    width: 25%;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cardEmail {
+    width: 60%;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.pContact {
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.pContact_res {
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #757575;
+}
+
+.btnContact {
+    margin: 0 auto;
+    width: 30%;
+    color: #FFF;
+    background-color: #6A7FDB;
+
+    &:hover {
+        color: #FFF;
+        background-color: #5b6db9;
+    }
+}
