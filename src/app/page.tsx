@@ -1,6 +1,8 @@
 import styles from "./page.module.scss";
 import Navbar from "./Navbar";
 import Hero from "./Hero";
+import About from "./About";
+import Services from "./Services";
 
 
 export default function Home() {
@@ -8,6 +10,8 @@ export default function Home() {
     <main style={{ paddingTop: "80px" }} className={styles.page}>
       <Navbar />
       <Hero />
+      <About />
+      <Services />
     </main>
   );
 }

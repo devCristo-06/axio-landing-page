@@ -8,6 +8,20 @@
     font-family: "Space Grotesk", sans-serif;
 }
 
+.txtGray {
+    color: #757575;
+    letter-spacing: 6px;
+}
+
+.hr {
+    border-top: 5px solid rgba($color: #6A7FDB, $alpha: 1.0);
+}
+
+.span {
+    font-size: 19px;
+    font-weight: 500;
+}
+
 // -----------------------------------------------
 // NAVBAR
 // -----------------------------------------------
@@ -29,11 +43,6 @@
     width: 380px;
 }
 
-.txtGray {
-    color: #757575;
-    letter-spacing: 6px;
-}
-
 .h1Hero {
     font-size: 60px;
 }
@@ -51,4 +60,27 @@
         color: #FFF;
         background-color: #5b6db9;
     }
+}
+
+// -----------------------------------------------
+// ABOUT US SECTION
+// -----------------------------------------------
+
+.pAbout {
+    text-align: justify;
+    line-height: 28px;
+}
+
+
+// -----------------------------------------------
+// SERVICES SECTION
+// -----------------------------------------------
+
+.h2Services {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.spacing {
+    margin-left: 30%;
 }

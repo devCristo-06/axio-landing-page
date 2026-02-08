@@ -2,7 +2,7 @@ import styles from "./page.module.scss";
 
 export default function Hero() {
     return (
-        <section className="container py-5">
+        <section className="container mt-5 py-5">
             <div className="row align-items-center">
 
                 <div className="col-12 col-lg-6">
