@@ -4,6 +4,7 @@ import Hero from "./Hero";
 import About from "./About";
 import Services from "./Services";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <About />
       <Services />
       <Contact />
+      <Footer />
     </main>
   );
 }
