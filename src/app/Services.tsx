@@ -7,7 +7,7 @@ export default function Services() {
         // INIZIO PRIMA PARTE
         // ---------------------------------------------------------------------------------
 
-        <section className="container py-5">
+        <section className={`container py-5 ${styles.sectionReveal} ${styles.delay3}`} id="Services">
             <div className="row align-items-center">
 
                 <div className="col-12 col-lg-12 mt-5">
@@ -20,14 +20,22 @@ export default function Services() {
                     </h1>
 
                     <p className={`lead ${styles.pAbout}`}>
-                        Lorem ipsum dolor sit amet consectetur.
-                        Lectus consectetur lorem sit cursus adipiscing odio adipiscing eget pretium.
-                        Velit arcu purus eu magna orci mauris suspendisse quis.
-                        Lorem ipsum dolor sit amet consectetur.
-                        Lectus consectetur lorem sit cursus adipiscing odio adipiscing eget pretium.
-                        Velit arcu purus eu magna orci mauris suspendisse quis.
+                        Every project follows a clear structure:
                     </p>
 
+                    <h3 className="mt-5">Development setup</h3>
+                    <ol>
+                        <li><b>Goal Definition</b> - We define what your landing page needs to achieve — leads, sales, bookings, or visibility.</li>
+                        <li><b>Strategic Structure</b> - We organize your content to guide visitors clearly and increase conversions.</li>
+                        <li><b>Development & Optimization</b> - Clean code, fast loading times, and perfect responsiveness across all devices.</li>
+                    </ol>
+
+                    <h3 className="mt-5">Design setup</h3>
+                    <ol>
+                        <li><b>Brand Understanding</b> - We analyze your message and target audience.</li>
+                        <li><b>Visual Identity Creation</b> - Colors, typography, and visual consistency aligned with your positioning.</li>
+                        <li><b>Detail Refinement</b> - Micro-interactions, visual harmony, and polished presentation.</li>
+                    </ol>
 
                 </div>
 
@@ -39,18 +47,18 @@ export default function Services() {
                         <h2 className={`mb-4 ${styles.h2Services}`}>GRAPHIC DESIGN</h2>
 
                         <ul className="list-unstyled d-flex flex-column align-items-center">
-                            <li className={`d-flex align-items-center gap-4 mb-4 w-50 ${styles.spacing}`}>
-                                <img src="https://dummyimage.com/40x40/CECECE.png" />
+                            <li className={`d-flex align-items-center gap-4 mb-4 ${styles.spacing}`}>
+                                <img width="40" src="images/ad_logo.png" />
                                 <span className={styles.span}>Illustrator</span>
                             </li>
 
-                            <li className={`d-flex align-items-center gap-4 mb-4 w-50 ${styles.spacing}`}>
-                                <img src="https://dummyimage.com/40x40/CECECE.png" />
+                            <li className={`d-flex align-items-center gap-4 mb-4 ${styles.spacing}`}>
+                                <img width="40" src="images/ps_logo.png" />
                                 <span className={styles.span}>Photoshop</span>
                             </li>
 
-                            <li className={`d-flex align-items-center gap-4 mb-4 w-50 ${styles.spacing}`}>
-                                <img src="https://dummyimage.com/40x40/CECECE.png" />
+                            <li className={`d-flex align-items-center gap-4 mb-4 ${styles.spacing}`}>
+                                <img width="40" src="images/id_logo.png" />
                                 <span className={styles.span}>InDesign</span>
                             </li>
                         </ul>
@@ -64,18 +72,18 @@ export default function Services() {
                         <h2 className={`mb-4 ${styles.h2Services}`}>DEVELOPMENT</h2>
 
                         <ul className="list-unstyled d-flex flex-column align-items-center">
-                            <li className={`d-flex align-items-center gap-4 mb-4 w-50 ${styles.spacing}`}>
-                                <img src="https://dummyimage.com/40x40/CECECE.png" />
+                            <li className={`d-flex align-items-center gap-4 mb-4 ${styles.spacing}`}>
+                                <img width="40" src="images/ang_logo.png" />
                                 <span className={styles.span}>Angular</span>
                             </li>
 
-                            <li className={`d-flex align-items-center gap-4 mb-4 w-50 ${styles.spacing}`}>
-                                <img src="https://dummyimage.com/40x40/CECECE.png" />
+                            <li className={`d-flex align-items-center gap-4 mb-4 ${styles.spacing}`}>
+                                <img width="40" src="images/lar_logo.png" />
                                 <span className={styles.span}>Laravel</span>
                             </li>
 
-                            <li className={`d-flex align-items-center gap-4 mb-4 w-50 ${styles.spacing}`}>
-                                <img src="https://dummyimage.com/40x40/CECECE.png" />
+                            <li className={`d-flex align-items-center gap-4 mb-4 ${styles.spacing}`}>
+                                <img width="40" src="images/boot_logo.png" />
                                 <span className={styles.span}>Bootstrap</span>
                             </li>
                         </ul>
@@ -97,7 +105,7 @@ export default function Services() {
 
                 <div className="col-12 col-lg-6 text-center mt-2 mt-lg-0">
                     <img
-                        className="img-fluid rounded"
+                        className={`img-fluid rounded ${styles.floatImage}`}
                         src="https://dummyimage.com/400x250/CECECE.png"
                         alt="Hero preview"
                     />
@@ -106,7 +114,7 @@ export default function Services() {
 
                 <div className="col-12 col-lg-6 text-center mt-5 mt-lg-0">
                     <img
-                        className="img-fluid rounded"
+                        className={`img-fluid rounded ${styles.floatImage}}`}
                         src="https://dummyimage.com/400x250/CECECE.png"
                         alt="Hero preview"
                     />
@@ -139,7 +147,7 @@ export default function Services() {
 
                 <div className="col-12 col-lg-6 text-center mt-2 mt-lg-0">
                     <img
-                        className="img-fluid rounded"
+                        className={`img-fluid rounded ${styles.floatImage}`}
                         src="https://dummyimage.com/400x250/CECECE.png"
                         alt="Hero preview"
                     />
@@ -148,7 +156,7 @@ export default function Services() {
 
                 <div className="col-12 col-lg-6 text-center mt-5 mt-lg-0">
                     <img
-                        className="img-fluid rounded"
+                        className={`img-fluid rounded ${styles.floatImage}`}
                         src="https://dummyimage.com/400x250/CECECE.png"
                         alt="Hero preview"
                     />

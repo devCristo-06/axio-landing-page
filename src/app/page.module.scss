@@ -10,7 +10,7 @@
 
 .txtGray {
     color: #757575;
-    letter-spacing: 6px;
+    letter-spacing: clamp(2px, 1vw, 6px);
 }
 
 .hr {
@@ -18,8 +18,30 @@
 }
 
 .span {
-    font-size: 19px;
+    font-size: clamp(1rem, 1.6vw, 1.2rem);
     font-weight: 500;
+}
+
+.sectionReveal {
+    opacity: 0;
+    transform: translate3d(0, 20px, 0);
+    animation: fadeUp 0.6s ease-out forwards;
+}
+
+.delay1 {
+    animation-delay: 0.08s;
+}
+
+.delay2 {
+    animation-delay: 0.16s;
+}
+
+.delay3 {
+    animation-delay: 0.24s;
+}
+
+.delay4 {
+    animation-delay: 0.32s;
 }
 
 // -----------------------------------------------
@@ -52,16 +74,6 @@
     line-height: 28px;
 }
 
-.btnHero {
-    color: #FFF;
-    background-color: #6A7FDB;
-
-    &:hover {
-        color: #FFF;
-        background-color: #5b6db9;
-    }
-}
-
 // -----------------------------------------------
 // ABOUT US SECTION
 // -----------------------------------------------
@@ -77,17 +89,31 @@
 // -----------------------------------------------
 
 .h2Services {
-    font-size: 50px;
+    font-size: clamp(2rem, 4.8vw, 3.125rem);
     font-weight: bold;
 }
 
 .spacing {
-    margin-left: 30%;
+    width: min(100%, 280px) !important;
+    margin-left: 0;
 }
 
 .pServices {
-    font-size: 30px;
+    font-size: clamp(1.35rem, 3.2vw, 1.875rem);
     font-weight: bold;
+}
+
+.hoverLift {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+
+    &:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 16px 26px rgba(0, 0, 0, 0.12);
+    }
+}
+
+.floatImage {
+    animation: softFloat 6s ease-in-out infinite;
 }
 
 
@@ -96,25 +122,39 @@
 // -----------------------------------------------
 
 .cardSocial {
-    width: 25%;
+    width: 100%;
+    max-width: 350px;
     border-radius: 20px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+
+    &:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 16px 26px rgba(0, 0, 0, 0.12);
+    }
 }
 
 .cardEmail {
-    width: 60%;
+    width: 100%;
+    max-width: 860px;
     border-radius: 20px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+
+    &:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 16px 26px rgba(0, 0, 0, 0.12);
+    }
 }
 
 .pContact {
-    font-size: 22px;
+    font-size: clamp(1.1rem, 2.8vw, 1.375rem);
     letter-spacing: 2px;
     font-weight: bold;
 }
 
 .pContact_res {
-    font-size: 20px;
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
     letter-spacing: 2px;
     font-weight: bold;
     color: #757575;
@@ -122,12 +162,93 @@
 
 .btnContact {
     margin: 0 auto;
-    width: 30%;
+    width: min(100%, 300px);
     color: #FFF;
     background-color: #6A7FDB;
 
     &:hover {
         color: #FFF;
         background-color: #5b6db9;
+    }
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 20px, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes softFloat {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-6px);
+    }
+}
+
+@media (max-width: 991.98px) {
+
+    .pHero,
+    .pAbout {
+        text-align: left;
+    }
+
+    .btnContact {
+        width: min(100%, 360px);
+    }
+}
+
+@media (max-width: 767.98px) {
+    .cardSocial {
+        max-width: 100%;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding: 2rem !important;
+    }
+
+    .cardEmail {
+        max-width: 100%;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+    .pContact,
+    .pContact_res {
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+    .btnContact {
+        width: 100%;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    .sectionReveal,
+    .floatImage {
+        opacity: 1;
+        transform: none;
+        animation: none;
+    }
+
+    .interactiveBtn,
+    .hoverLift,
+    .cardSocial,
+    .cardEmail {
+        transition: none;
     }
 }

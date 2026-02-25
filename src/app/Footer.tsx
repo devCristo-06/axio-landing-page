@@ -1,17 +1,17 @@
 export default function Footer() {
     return (
-        <footer className="py-5 bg-light">
+        <footer className="py-5 bg-light" id="Footer">
             <div className="container-fluid px-4">
 
                 {/* ROW 1 */}
                 <div className="row align-items-center">
-                    <div className="col-6">
+                    <div className="col-12 col-md-6 text-center text-md-start">
                         <a href="#">
                             <img src="../../images/axioLogo.png" width="150" alt="Axio logo" />
                         </a>
                     </div>
 
-                    <div className="col-6 text-end">
+                    <div className="col-12 col-md-6 text-center text-md-end mt-3 mt-md-0">
                         <p className="text-muted m-0">
                             Transform your ideas in reality
                         </p>
@@ -22,11 +22,11 @@ export default function Footer() {
 
                 {/* ROW 2 */}
                 <div className="row align-items-center">
-                    <div className="col-12 col-lg-6">
-                        <div className="d-flex gap-3 mb-4">
-                            <div className="p-4 bg-secondary rounded shadow-sm"></div>
-                            <div className="p-4 bg-secondary rounded shadow-sm"></div>
-                            <div className="p-4 bg-secondary rounded shadow-sm"></div>
+                    <div className="col-12 col-lg-6 text-center text-lg-start">
+                        <div className="d-flex mb-4 justify-content-center justify-content-lg-start flex-wrap">
+                            <div className="p-4 bg-transparent rounded">< img src="images/fi_logo.png" width="40" /></div>
+                            <div className="p-4 bg-transparent rounded">< img src="images/lk_logo.png" width="40" /></div>
+                            <div className="p-4 bg-transparent rounded">< img src="images/tk_logo.png" width="40" /></div>
                         </div>
 
                         <p className="text-muted m-0">

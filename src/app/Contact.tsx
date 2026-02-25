@@ -2,7 +2,7 @@ import styles from "./page.module.scss";
 
 export default function Contact() {
     return (
-        <section className="container py-5">
+        <section className={`container py-5 ${styles.sectionReveal} ${styles.delay4}`} id="Contacts">
             <div className="row align-items-center">
 
                 <div className="col-12 col-lg-12 mt-5">
@@ -15,12 +15,14 @@ export default function Contact() {
                     </h1>
 
                     <p className={`lead ${styles.pAbout}`}>
-                        Lorem ipsum dolor sit amet consectetur.
-                        Lectus consectetur lorem sit cursus adipiscing odio adipiscing eget pretium.
-                        Velit arcu purus eu magna orci mauris suspendisse quis.
-                        Lorem ipsum dolor sit amet consectetur.
-                        Lectus consectetur lorem sit cursus adipiscing odio adipiscing eget pretium.
-                        Velit arcu purus eu magna orci mauris suspendisse quis.
+                        If you have an idea even in its early stages, let’s talk.
+
+                        We’ll help you turn it into a clear, professional, and effective online presence.
+
+                        Fill out the form or contact us directly.
+                        We’ll review your project and propose the right solution.
+
+                        No pressure. Just clarity and direction.
                     </p>
 
 
@@ -37,7 +39,7 @@ export default function Contact() {
                         <div className="d-flex flex-column align-items-center">
                             <img
                                 className="img-fluid rounded"
-                                src="https://dummyimage.com/125x125/CECECE.png"
+                                src="images/ig_logo.png" width="80"
                                 alt="Hero preview"
                             />
                             <p className={`mt-3 ${styles.pServices}`}>Instagram</p>
@@ -49,7 +51,7 @@ export default function Contact() {
                         <div className="d-flex flex-column align-items-center">
                             <img
                                 className="img-fluid rounded"
-                                src="https://dummyimage.com/125x125/CECECE.png"
+                                src="images/tk_logo.png" width="80"
                                 alt="Hero preview"
                             />
                             <p className={`mt-3 ${styles.pServices}`}>Tik Tok</p>
@@ -61,7 +63,7 @@ export default function Contact() {
                         <div className="d-flex flex-column align-items-center">
                             <img
                                 className="img-fluid rounded"
-                                src="https://dummyimage.com/125x125/CECECE.png"
+                                src="images/lk_logo.png" width="80"
                                 alt="Hero preview"
                             />
                             <p className={`mt-3 ${styles.pServices}`}>LinkedIn</p>
@@ -80,7 +82,7 @@ export default function Contact() {
             </div>
 
             <div className="row align-items-center">
-                <button className={`btn px-4 py-2 mt-5 align-items-center ${styles.btnContact}`}>
+                <button className={`btn px-4 py-2 mt-5 align-items-center ${styles.btnContact} ${styles.interactiveBtn}`}>
                     Send us a message
                 </button>
             </div>
