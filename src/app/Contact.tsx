@@ -36,43 +36,50 @@ export default function Contact() {
                 <div className="row d-flex align-items-center justify-content-center mt-5">
 
                     <div className={`col-12 col-lg-4 text-center mt-2 mx-4 p-5 mt-lg-0 ${styles.cardSocial}`}>
-                        <div className="d-flex flex-column align-items-center">
-                            <img
-                                className="img-fluid rounded"
-                                src="images/ig_logo.png" width="80"
-                                alt="Hero preview"
-                            />
-                            <p className={`mt-3 ${styles.pServices}`}>Instagram</p>
-                        </div>
+                        <a href="https://www.instagram.com/axio_team/" className={styles.contactLink}>
+                            <div className="d-flex flex-column align-items-center">
+
+                                <img
+                                    className="img-fluid rounded"
+                                    src="images/ig_logo.png" width="80"
+                                    alt="Hero preview"
+                                />
+                                <p className={`mt-3 ${styles.pServices}`}>Instagram</p>
+                            </div>
+                        </a>
                     </div>
 
 
                     <div className={`col-12 col-lg-4 text-center mt-2 mx-4 p-5 mt-lg-0 ${styles.cardSocial}`}>
-                        <div className="d-flex flex-column align-items-center">
-                            <img
-                                className="img-fluid rounded"
-                                src="images/tk_logo.png" width="80"
-                                alt="Hero preview"
-                            />
-                            <p className={`mt-3 ${styles.pServices}`}>Tik Tok</p>
-                        </div>
+                        <a href="https://www.tiktok.com/@axioteam" className={styles.contactLink}>
+                            <div className="d-flex flex-column align-items-center">
+                                <img
+                                    className="img-fluid rounded"
+                                    src="images/tk_logo.png" width="80"
+                                    alt="Hero preview"
+                                />
+                                <p className={`mt-3 ${styles.pServices}`}>Tik Tok</p>
+                            </div>
+                        </a>
                     </div>
 
 
                     <div className={`col-12 col-lg-4 text-center mt-2 mx-4 p-5 mt-lg-0 ${styles.cardSocial}`}>
-                        <div className="d-flex flex-column align-items-center">
-                            <img
-                                className="img-fluid rounded"
-                                src="images/lk_logo.png" width="80"
-                                alt="Hero preview"
-                            />
-                            <p className={`mt-3 ${styles.pServices}`}>LinkedIn</p>
-                        </div>
+                        <a href="https://www.linkedin.com/in/axio-team-847a283aa/" className={styles.contactLink}>
+                            <div className="d-flex flex-column align-items-center">
+                                <img
+                                    className="img-fluid rounded"
+                                    src="images/lk_logo.png" width="80"
+                                    alt="Hero preview"
+                                />
+                                <p className={`mt-3 ${styles.pServices}`}>LinkedIn</p>
+                            </div>
+                        </a>
                     </div>
 
                     <div className={`col-12 col-lg-12 text-center mt-2 mx-4 p-4 mt-lg-5 ${styles.cardEmail}`}>
                         <div className="d-flex flex-column align-items-center">
-                            <p className={styles.pContact}>Email: email.business@email.com</p>
+                            <p className={styles.pContact}>Email: axioteam2026@gmail.com</p>
                             <p className={styles.pContact_res}>Response time: within 24h</p>
                         </div>
                     </div>
@@ -82,9 +89,9 @@ export default function Contact() {
             </div>
 
             <div className="row align-items-center">
-                <button className={`btn px-4 py-2 mt-5 align-items-center ${styles.btnContact} ${styles.interactiveBtn}`}>
+                <a href="https://it.fiverr.com/sellers/axio_team/" className={`btn px-4 py-2 mt-5 align-items-center ${styles.btnContact} ${styles.interactiveBtn}`}>
                     Send us a message
-                </button>
+                </a>
             </div>
 
         </section>

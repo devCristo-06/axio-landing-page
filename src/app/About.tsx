@@ -35,7 +35,7 @@ export default function About() {
                 <div className="col-12 col-lg-12 text-center mt-4 mt-lg-5">
                     <img
                         className={`img-fluid rounded ${styles.floatImage}`}
-                        src="https://dummyimage.com/900x350/CECECE.png"
+                        src="images/axioLogo_2.png" width="700"
                         alt="Hero preview"
                     />
                 </div>

@@ -30,7 +30,7 @@ export default function Hero() {
                 <div className="col-12 col-lg-6 text-center mt-4 mt-lg-0">
                     <img
                         className={`img-fluid rounded ${styles.floatImage}`}
-                        src="https://dummyimage.com/500x350/CECECE.png"
+                        src="images/axioLogo_1.png" width="400"
                         alt="Hero preview"
                     />
                 </div>

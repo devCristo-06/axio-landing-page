@@ -48,17 +48,17 @@ export default function Services() {
 
                         <ul className="list-unstyled d-flex flex-column align-items-center">
                             <li className={`d-flex align-items-center gap-4 mb-4 ${styles.spacing}`}>
-                                <img width="40" src="images/ad_logo.png" />
+                                <img width="40" src="images/ad_logo.png" alt="Adobe Illustrator logo" />
                                 <span className={styles.span}>Illustrator</span>
                             </li>
 
                             <li className={`d-flex align-items-center gap-4 mb-4 ${styles.spacing}`}>
-                                <img width="40" src="images/ps_logo.png" />
+                                <img width="40" src="images/ps_logo.png" alt="Adobe Photoshop logo" />
                                 <span className={styles.span}>Photoshop</span>
                             </li>
 
                             <li className={`d-flex align-items-center gap-4 mb-4 ${styles.spacing}`}>
-                                <img width="40" src="images/id_logo.png" />
+                                <img width="40" src="images/id_logo.png" alt="Adobe InDesign logo" />
                                 <span className={styles.span}>InDesign</span>
                             </li>
                         </ul>
@@ -73,17 +73,17 @@ export default function Services() {
 
                         <ul className="list-unstyled d-flex flex-column align-items-center">
                             <li className={`d-flex align-items-center gap-4 mb-4 ${styles.spacing}`}>
-                                <img width="40" src="images/ang_logo.png" />
+                                <img width="40" src="images/ang_logo.png" alt="Angular logo" />
                                 <span className={styles.span}>Angular</span>
                             </li>
 
                             <li className={`d-flex align-items-center gap-4 mb-4 ${styles.spacing}`}>
-                                <img width="40" src="images/lar_logo.png" />
+                                <img width="40" src="images/lar_logo.png" alt="Laravel logo" />
                                 <span className={styles.span}>Laravel</span>
                             </li>
 
                             <li className={`d-flex align-items-center gap-4 mb-4 ${styles.spacing}`}>
-                                <img width="40" src="images/boot_logo.png" />
+                                <img width="40" src="images/boot_logo.png" alt="Bootstrap logo" />
                                 <span className={styles.span}>Bootstrap</span>
                             </li>
                         </ul>
@@ -114,7 +114,7 @@ export default function Services() {
 
                 <div className="col-12 col-lg-6 text-center mt-5 mt-lg-0">
                     <img
-                        className={`img-fluid rounded ${styles.floatImage}}`}
+                        className={`img-fluid rounded ${styles.floatImage}`}
                         src="https://dummyimage.com/400x250/CECECE.png"
                         alt="Hero preview"
                     />

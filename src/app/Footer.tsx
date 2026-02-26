@@ -24,9 +24,9 @@ export default function Footer() {
                 <div className="row align-items-center">
                     <div className="col-12 col-lg-6 text-center text-lg-start">
                         <div className="d-flex mb-4 justify-content-center justify-content-lg-start flex-wrap">
-                            <div className="p-4 bg-transparent rounded">< img src="images/fi_logo.png" width="40" /></div>
-                            <div className="p-4 bg-transparent rounded">< img src="images/lk_logo.png" width="40" /></div>
-                            <div className="p-4 bg-transparent rounded">< img src="images/tk_logo.png" width="40" /></div>
+                            <div className="p-4 bg-transparent rounded"><a href="https://it.fiverr.com/sellers/axio_team/"><img src="images/fi_logo.png" width="40" alt="Fiverr logo" /></a></div>
+                            <div className="p-4 bg-transparent rounded"><a href="https://www.linkedin.com/in/axio-team-847a283aa/"><img src="images/lk_logo.png" width="40" alt="LinkedIn logo" /></a></div>
+                            <div className="p-4 bg-transparent rounded"><a href="https://www.tiktok.com/@axioteam"><img src="images/tk_logo.png" width="40" alt="TikTok logo" /></a></div>
                         </div>
 
                         <p className="text-muted m-0">
